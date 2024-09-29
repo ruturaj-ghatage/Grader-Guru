@@ -1,0 +1,79 @@
+id: 0, object_type: LABEL.process, x_min: 399.0635681152, x_max: 800.9395751953, y_min: 461.8936462402, y_max: 389.5489196777, confidence: 0.9670374393
+next blocks count: 1
+-Neighbour 0: 2
+previous blocks count: 1
+-Neighbour 0: 3
+Inner texts: 1
+0.961
+m =  S + (e - s) / 2 
+
+id: 1, object_type: LABEL.decision, x_min: 482.6821899414, x_max: 784.3959960938, y_min: 741.8283691406, y_max: 631.125793457, confidence: 0.9571475983
+next blocks count: 0
+previous blocks count: 0
+Conditional next neigbours: 0
+{}
+Inner texts: 1
+0.588
+La[m]k 
+
+id: 2, object_type: LABEL.decision, x_min: 476.0922241211, x_max: 761.9950561523, y_min: 629.4258422852, y_max: 500.2501831055, confidence: 0.9502017498
+next blocks count: 1
+-Neighbour 0: 7
+previous blocks count: 1
+-Neighbour 0: 0
+Conditional next neigbours: 1
+{"7": "yes"}
+Inner texts: 1
+0.368
+a [m]  = k 
+
+id: 3, object_type: LABEL.decision, x_min: 446.630859375, x_max: 647.1687011719, y_min: 348.0908203125, y_max: 229.7440338135, confidence: 0.950079143
+next blocks count: 2
+-Neighbour 0: 0
+-Neighbour 1: 8
+previous blocks count: 1
+-Neighbour 0: 5
+Conditional next neigbours: 2
+{"0": "Yes", "8": "No"}
+Inner texts: 1
+0.7324999999999999
+s  <=  e  >  
+
+id: 4, object_type: LABEL.start_end, x_min: 452.012298584, x_max: 613.6856689453, y_min: 82.3673400879, y_max: 10.255903244, confidence: 0.9444352388
+next blocks count: 0
+previous blocks count: 0
+Inner texts: 1
+0.982
+Start) 
+
+id: 5, object_type: LABEL.process, x_min: 396.5451660156, x_max: 690.7343139648, y_min: 175.8970031738, y_max: 105.1411056519, confidence: 0.9401646852
+next blocks count: 1
+-Neighbour 0: 3
+previous blocks count: 0
+Inner texts: 1
+0.784
+l  =  0 . h  =  n 
+
+id: 6, object_type: LABEL.process, x_min: 861.1918945312, x_max: 1047.5134277344, y_min: 690.9781494141, y_max: 625.8452148438, confidence: 0.9341782928
+next blocks count: 0
+previous blocks count: 0
+Inner texts: 1
+0.643
+ + s = m +  
+
+id: 7, object_type: LABEL.process, x_min: 185.7631988525, x_max: 386.314666748, y_min: 617.2733764648, y_max: 546.1171264648, confidence: 0.9300283194
+next blocks count: 0
+previous blocks count: 1
+-Neighbour 0: 2
+Inner texts: 1
+0.613
+ans = mt 
+
+id: 8, object_type: LABEL.process, x_min: 150.9327850342, x_max: 357.309753418, y_min: 319.0794677734, y_max: 249.3130493164, confidence: 0.9233396649
+next blocks count: 0
+previous blocks count: 1
+-Neighbour 0: 3
+Inner texts: 1
+0.999
+ans  =-  1k 
+

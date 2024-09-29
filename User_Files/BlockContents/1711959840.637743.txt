@@ -1,0 +1,52 @@
+id: 0, object_type: LABEL.process, x_min: 104.519744873, x_max: 656.3480834961, y_min: 794.9584960938, y_max: 650.5770874023, confidence: 0.9621897936
+next blocks count: 1
+-Neighbour 0: 4
+previous blocks count: 1
+-Neighbour 0: 5
+Inner texts: 1
+0.7346308845309446
+SelT
+
+id: 1, object_type: LABEL.start_end, x_min: 213.7188873291, x_max: 712.6889038086, y_min: 421.2145690918, y_max: 296.7669372559, confidence: 0.9604122639
+next blocks count: 1
+-Neighbour 0: 5
+previous blocks count: 0
+Inner texts: 1
+0.28028437785264937
+SelecblonSorb
+
+id: 2, object_type: LABEL.process, x_min: 183.9478149414, x_max: 628.5692749023, y_min: 1176.3076171875, y_max: 1032.2052001953, confidence: 0.9551155567
+next blocks count: 1
+-Neighbour 0: 3
+previous blocks count: 1
+-Neighbour 0: 4
+Inner texts: 1
+0.3279383182525635
+Set
+
+id: 3, object_type: LABEL.start_end, x_min: 231.3906555176, x_max: 756.1430664062, y_min: 1437.1754150391, y_max: 1209.1865234375, confidence: 0.9526504278
+next blocks count: 0
+previous blocks count: 1
+-Neighbour 0: 2
+Inner texts: 1
+0.5883739373535088
+OfderedArfey
+
+id: 4, object_type: LABEL.process, x_min: 130.032333374, x_max: 703.0468139648, y_min: 1005.1248779297, y_max: 846.260925293, confidence: 0.9520514607
+next blocks count: 1
+-Neighbour 0: 2
+previous blocks count: 1
+-Neighbour 0: 0
+Inner texts: 1
+0.7646709740166966
+SelN2I
+
+id: 5, object_type: LABEL.process, x_min: 116.0813827515, x_max: 866.3411865234, y_min: 599.0469360352, y_max: 476.4438171387, confidence: 0.9148180485
+next blocks count: 1
+-Neighbour 0: 0
+previous blocks count: 1
+-Neighbour 0: 1
+Inner texts: 1
+0.9082953052087746
+SelNLengthoAcroy
+

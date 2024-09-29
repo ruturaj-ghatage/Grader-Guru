@@ -1,0 +1,32 @@
+id: 0, object_type: LABEL.process, x_min: 134.3160705566, x_max: 596.0100097656, y_min: 499.1245727539, y_max: 327.4185791016, confidence: 0.9454550743
+next blocks count: 1
+-Neighbour 0: 3
+previous blocks count: 1
+-Neighbour 0: 1
+Inner texts: 1
+0.44360895195584915
+85
+
+id: 1, object_type: LABEL.start_end, x_min: 204.6462554932, x_max: 515.3109741211, y_min: 222.1512145996, y_max: 53.489944458, confidence: 0.9432882071
+next blocks count: 1
+-Neighbour 0: 0
+previous blocks count: 0
+Inner texts: 1
+0.648885190486908
+NAP)
+
+id: 2, object_type: LABEL.start_end, x_min: 165.443572998, x_max: 499.9520568848, y_min: 1077.6539306641, y_max: 893.5900268555, confidence: 0.9397515655
+next blocks count: 0
+previous blocks count: 1
+-Neighbour 0: 3
+Inner texts: 1
+0.1914833357025116
+EMA
+
+id: 3, object_type: LABEL.scan, x_min: 178.0933074951, x_max: 556.2426757812, y_min: 791.035949707, y_max: 608.5939331055, confidence: 0.9299259782
+next blocks count: 1
+-Neighbour 0: 2
+previous blocks count: 1
+-Neighbour 0: 0
+Inner texts: 0
+

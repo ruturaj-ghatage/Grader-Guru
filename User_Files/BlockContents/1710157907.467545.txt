@@ -1,0 +1,110 @@
+id: 0, object_type: LABEL.process, x_min: 287.2199707031, x_max: 597.5922851562, y_min: 1043.2607421875, y_max: 963.71484375, confidence: 0.9534133673
+next blocks count: 1
+-Neighbour 0: 4
+previous blocks count: 2
+-Neighbour 0: 1
+-Neighbour 1: 5
+Inner texts: 1
+0.5900335452005043
+Var4Var[var
+
+id: 1, object_type: LABEL.process, x_min: 464.1321411133, x_max: 679.1881713867, y_min: 934.9808959961, y_max: 842.9662475586, confidence: 0.9474874139
+next blocks count: 1
+-Neighbour 0: 0
+previous blocks count: 1
+-Neighbour 0: 8
+Inner texts: 1
+0.4612859780957085
+Var2Jo[5
+
+id: 2, object_type: LABEL.process, x_min: 457.8015136719, x_max: 679.5671386719, y_min: 661.4779663086, y_max: 597.7212524414, confidence: 0.9446680546
+next blocks count: 1
+-Neighbour 0: 8
+previous blocks count: 1
+-Neighbour 0: 6
+Inner texts: 1
+0.54691996898282
+VaR4~ = VAr2
+
+id: 3, object_type: LABEL.start_end, x_min: 266.8992614746, x_max: 445.3440246582, y_min: 134.5360412598, y_max: 48.7829360962, confidence: 0.9445552826
+next blocks count: 1
+-Neighbour 0: 9
+previous blocks count: 0
+Inner texts: 1
+0.21500492189874068
+StAQt
+
+id: 4, object_type: LABEL.print, x_min: 367.4044189453, x_max: 493.0621948242, y_min: 1149.9818115234, y_max: 1077.5650634766, confidence: 0.9434013963
+next blocks count: 1
+-Neighbour 0: 10
+previous blocks count: 1
+-Neighbour 0: 0
+Inner texts: 1
+0.34666991233825684
+var4
+
+id: 5, object_type: LABEL.process, x_min: 58.176322937, x_max: 305.5637512207, y_min: 722.2760620117, y_max: 648.618347168, confidence: 0.9433338642
+next blocks count: 1
+-Neighbour 0: 0
+previous blocks count: 1
+-Neighbour 0: 6
+Inner texts: 1
+0.2611253120842442
+VaraASxVAR2
+
+id: 6, object_type: LABEL.decision, x_min: 251.6696472168, x_max: 450.3167419434, y_min: 581.9840698242, y_max: 481.998840332, confidence: 0.9422890544
+next blocks count: 2
+-Neighbour 0: 5
+-Neighbour 1: 2
+previous blocks count: 1
+-Neighbour 0: 7
+Conditional next neigbours: 2
+{"5": "YEs", "2": "No"}
+Inner texts: 1
+0.3881677234774386
+VArq <= 19
+
+id: 7, object_type: LABEL.process, x_min: 238.6143493652, x_max: 441.2264099121, y_min: 443.9795837402, y_max: 381.6473693848, confidence: 0.9420824647
+next blocks count: 1
+-Neighbour 0: 6
+previous blocks count: 1
+-Neighbour 0: 11
+Inner texts: 1
+0.5986159821907404
+Var4X = VaR2
+
+id: 8, object_type: LABEL.process, x_min: 460.5192260742, x_max: 728.4924926758, y_min: 796.1561279297, y_max: 716.9312744141, confidence: 0.9411719441
+next blocks count: 1
+-Neighbour 0: 1
+previous blocks count: 1
+-Neighbour 0: 2
+Inner texts: 1
+0.6952331166160484
+VAp4VAr45
+
+id: 9, object_type: LABEL.process, x_min: 270.5781860352, x_max: 412.3417358398, y_min: 253.3455200195, y_max: 183.4364318848, confidence: 0.9405325651
+next blocks count: 1
+-Neighbour 0: 11
+previous blocks count: 1
+-Neighbour 0: 3
+Inner texts: 1
+0.3630981271128091
+Varu = 2
+
+id: 10, object_type: LABEL.start_end, x_min: 345.6643676758, x_max: 468.1060180664, y_min: 1249.9534912109, y_max: 1190.1429443359, confidence: 0.9346235991
+next blocks count: 0
+previous blocks count: 1
+-Neighbour 0: 4
+Inner texts: 1
+0.7450410916407633
+End
+
+id: 11, object_type: LABEL.scan, x_min: 253.2820892334, x_max: 381.364074707, y_min: 347.9218139648, y_max: 287.8305053711, confidence: 0.906498909
+next blocks count: 1
+-Neighbour 0: 7
+previous blocks count: 1
+-Neighbour 0: 9
+Inner texts: 1
+0.8729967071316318
+VAr2
+

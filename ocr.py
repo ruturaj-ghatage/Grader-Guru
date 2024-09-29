@@ -1,0 +1,41 @@
+import Enums
+from OCR import EasyOCR, AzureOCR
+from OCR.HandwrittenOCR import OCR
+from PIL import Image
+from Classes.Text import Text
+from Classes.Block import Block
+
+
+def get_text(img: Image, blocks: [Block], ocr_system: Enums.OCR) -> [Block]:
+    if ocr_system == Enums.OCR.CUSTOM:
+        blocks = EasyOCR.get_text(img, blocks)  # Necessary in order to get text bounds
+        OCR.OCR(img, blocks)
+    elif ocr_system == Enums.OCR.AZURE:
+        blocks = AzureOCR.AOCR(img, blocks)
+
+    __fix_whitespaces(blocks)
+
+    return blocks
+
+
+def __fix_whitespaces(blocks: [Block]):
+    block: Block
+    special_characters: [str] = ['+', '-', '*', '/', '&', '|', '!', '<', '>', '=']
+
+    for block in blocks:
+        if len(block.Texts) > 0:
+            #block.Texts[0].text = block.Texts[0].text.replace(" ", "")
+            text: str = ""
+            is_last_char_special_char: bool = False
+
+            for c in block.Texts[0].text:
+                if (c in special_characters) and (not is_last_char_special_char):
+                    is_last_char_special_char = True
+                    text += " "
+                elif (c not in special_characters) and is_last_char_special_char:
+                    is_last_char_special_char = False
+                    text += " "
+                text += c
+
+            block.Texts[0].text = text
+            print("Final -> {0}".format(block.Texts[0].text))

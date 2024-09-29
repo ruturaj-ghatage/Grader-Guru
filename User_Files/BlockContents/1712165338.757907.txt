@@ -1,0 +1,85 @@
+id: 0, object_type: LABEL.decision, x_min: 279.3139038086, x_max: 468.265625, y_min: 501.6795959473, y_max: 380.6500549316, confidence: 0.9696325064
+next blocks count: 3
+-Neighbour 0: 2
+-Neighbour 1: 4
+-Neighbour 2: 7
+previous blocks count: 1
+-Neighbour 0: 8
+Conditional next neigbours: 3
+{"2": "DEFAULT", "4": "1", "7": "4"}
+Inner texts: 1
+0.998
+VAR 
+
+id: 1, object_type: LABEL.start_end, x_min: 267.6543273926, x_max: 446.9731750488, y_min: 1154.9868164062, y_max: 1049.4577636719, confidence: 0.951700449
+next blocks count: 0
+previous blocks count: 1
+-Neighbour 0: 6
+Inner texts: 1
+0.999
+FIN 
+
+id: 2, object_type: LABEL.process, x_min: 306.3269042969, x_max: 486.7756347656, y_min: 685.9815673828, y_max: 609.8031005859, confidence: 0.9508911371
+next blocks count: 1
+-Neighbour 0: 6
+previous blocks count: 1
+-Neighbour 0: 0
+Inner texts: 1
+0.997
+VAR  *=  10 
+
+id: 3, object_type: LABEL.start_end, x_min: 307.5612182617, x_max: 489.4906005859, y_min: 127.0860824585, y_max: 45.0366592407, confidence: 0.950491786
+next blocks count: 1
+-Neighbour 0: 8
+previous blocks count: 0
+Inner texts: 1
+0.992
+INICIO 
+
+id: 4, object_type: LABEL.process, x_min: 558.716003418, x_max: 737.7662963867, y_min: 641.3181762695, y_max: 557.9579467773, confidence: 0.9397422075
+next blocks count: 1
+-Neighbour 0: 6
+previous blocks count: 1
+-Neighbour 0: 0
+Inner texts: 1
+0.998
+VAR  -   =  1 
+
+id: 5, object_type: LABEL.process, x_min: 32.0575637817, x_max: 220.3993530273, y_min: 798.6147460938, y_max: 717.0870361328, confidence: 0.9390675426
+next blocks count: 1
+-Neighbour 0: 6
+previous blocks count: 1
+-Neighbour 0: 7
+Inner texts: 1
+0.989
+VAR  /= 2 
+
+id: 6, object_type: LABEL.print, x_min: 314.1875610352, x_max: 473.423034668, y_min: 934.4255981445, y_max: 851.1813354492, confidence: 0.9385179281
+next blocks count: 1
+-Neighbour 0: 1
+previous blocks count: 3
+-Neighbour 0: 2
+-Neighbour 1: 4
+-Neighbour 2: 5
+Inner texts: 1
+0.998
+VAR 
+
+id: 7, object_type: LABEL.process, x_min: 35.8103027344, x_max: 215.0099182129, y_min: 643.2866821289, y_max: 579.0602416992, confidence: 0.9362748265
+next blocks count: 1
+-Neighbour 0: 5
+previous blocks count: 1
+-Neighbour 0: 0
+Inner texts: 1
+0.998
+VAR  +=  7 
+
+id: 8, object_type: LABEL.scan, x_min: 234.343170166, x_max: 482.580078125, y_min: 291.258605957, y_max: 207.935256958, confidence: 0.9362623692
+next blocks count: 1
+-Neighbour 0: 0
+previous blocks count: 1
+-Neighbour 0: 3
+Inner texts: 1
+0.997
+VAR 
+
